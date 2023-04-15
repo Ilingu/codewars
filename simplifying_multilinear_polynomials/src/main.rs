@@ -4,5 +4,5 @@ pub mod solution;
 pub mod tests;
 
 fn main() {
-    simplify("dc+dcba");
+    println!("{}", simplify("dc+dcba"));
 }
