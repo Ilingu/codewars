@@ -4,7 +4,11 @@ pub mod solution;
 pub mod tests;
 
 fn main() {
-    println!("{}", proper_fractions(709438050));
+    let mut i = 1;
+    loop {
+        println!("{i} {}", proper_fractions(i));
+        i *= 2
+    }
 }
 
 /* What I know:
